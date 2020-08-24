@@ -29,4 +29,5 @@
 * javap is used to decompile your .class files	
 * NO GLOBAL VARIABLES IN JAVA
 * Classes are the only first-class citizens in Java
+
 	
