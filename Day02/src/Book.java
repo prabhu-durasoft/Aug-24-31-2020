@@ -1,7 +1,7 @@
 public class Book {
 	
 	//has-a
-	String title;
+	String title = "ABC"; //NOT CONSIDERED A GOOD CODING PRACTICE
 	double price;
 	Author author;
 	
