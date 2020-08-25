@@ -30,4 +30,32 @@
 * NO GLOBAL VARIABLES IN JAVA
 * Classes are the only first-class citizens in Java
 
+
+## Types
+* Primitve types (int, long, float, char, boolean, double)
+* Reference types (Arrays, String)
+* Custom Reference Types
+* classes and objects
+* A Class in Java is a custom reference type
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
