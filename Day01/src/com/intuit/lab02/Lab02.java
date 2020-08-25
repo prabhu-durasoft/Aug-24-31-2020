@@ -6,15 +6,15 @@ public class Lab02 {
 
 	public static void main(String[] args) {
 		
-		int[] arr = {};
-		System.out.println(arr.length);
-		
-		String str = "java";
-		System.out.println(str.length());
-		
-		int j = 10;
-		String s = j + "";
-		
+//		int[] arr = {};
+//		System.out.println(arr.length);
+//		
+//		String str = "java";
+//		System.out.println(str.length());
+//		
+//		int j = 10;
+//		String s = j + "";
+//		
 		
 		int[] numbers = new int[3];
 		Scanner scanner = new Scanner(System.in);
@@ -31,6 +31,7 @@ public class Lab02 {
 		scanner.close();
 		
 	}
+	//BAD WAY TO WRITE CODE
 	static void print(String operation, int[] numbers) {
 		String output = "***" + operation;
 		output += "(";
