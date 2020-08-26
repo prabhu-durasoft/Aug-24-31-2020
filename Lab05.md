@@ -1,5 +1,5 @@
-* Create a class called __Account__ in a package __com.lab06__ that does the following. Don't worry about packages concept. Just use the IDE's facilities to create a package.
-* It has an balance that needs to be initialized with a value greater than 10000
+* Create a class called __Account__ in a package __com.lab05__ that does the following. Don't worry about packages concept. Just use the IDE's facilities to create a package.
+* It has a balance that needs to be initialized with a value greater than 10000
 * Methods to deposit, withdraw. If there isn't sufficient balance don't allow withdraw.
 * You can withdraw only 3 times. After that you will be charged 0.5% of the amount as Fees.
 
