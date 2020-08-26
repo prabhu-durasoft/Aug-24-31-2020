@@ -1,9 +1,19 @@
 package com.intuit.lab04;
 
 public class Engine {
-	int power;
+	private int power;
 	
-	Engine(int thePower) {
+	public Engine(int thePower) {
 		power = thePower;
 	}
+
+	public int getPower() {
+		return power;
+	}
+
+	public void setPower(int power) {
+		this.power = power;
+	}
+	
+	
 }

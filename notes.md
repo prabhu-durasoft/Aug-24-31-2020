@@ -38,6 +38,27 @@
 * classes and objects
 * A Class in Java is a custom reference type
 
+## Access specifiers
+
+* Default access is package-friendly
+* Create public classes, with private fields, and public getter/setter properties
+* POJO class or Java Bean
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

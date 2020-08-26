@@ -1,14 +1,39 @@
 package com.intuit.lab04;
 
 public class Car {
-	String model;
-	String color;
+	private String model;
+	private String color;
 	
-	Engine engine;
+	private Engine engine;
 	
-	Car(String theModel, String theColor) {
+	public Car(String theModel, String theColor) {
 		model = theModel;
 		color = theColor;
 	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+
+	public Engine getEngine() {
+		return engine;
+	}
+
+	public void setEngine(Engine engine) {
+		this.engine = engine;
+	}
+	
 	
 }
