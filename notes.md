@@ -45,6 +45,12 @@
 * POJO class or Java Bean
 
 
+## Inheritance
+
+* Extensibility
+* has-a relationship
+* is-a or kind-of relationship
+
 
 
 
