@@ -1,6 +1,11 @@
 public class Inheritance {
 
 	public static void main(String[] args) {
+		//java.lang.Object is the base class for all the classes
+		
+		String s1 = "java";
+		String s2 = "javascript";
+		s1.equals(s2);
 		final double PI = 3.14;
 		//PI = 3.1414;
 		Base base1 = new Derived();
@@ -9,6 +14,7 @@ public class Inheritance {
 		base2.doSomething();
 		//base1.hello();
 		base1.bye();
+		base1.equals(base2);
 	}
 
 }
