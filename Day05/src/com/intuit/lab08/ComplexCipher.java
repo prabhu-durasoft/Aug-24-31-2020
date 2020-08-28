@@ -40,5 +40,26 @@ public class ComplexCipher implements Cipher {
 		}
 		return sourceWord;
 	}
+	
+	public String decryptModern(final String jumbledWord) {
+		String sourceWord = sourceMapStore
+			.stream()
+			.filter(it -> it.getJumbledWord().equals(jumbledWord))
+			.map(it -> it.getOriginalWord())
+			.findFirst()
+			.get();
+		return sourceWord;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }
