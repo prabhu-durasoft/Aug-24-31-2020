@@ -21,6 +21,7 @@ class SwitchAlreadyOnException extends Exception {
 		super(message);
 	}
 }
+
 class SwitchAlreadyOffException extends Exception {
 	public SwitchAlreadyOffException(String message) {
 		super(message);
